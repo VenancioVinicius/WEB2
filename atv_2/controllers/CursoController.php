@@ -67,8 +67,9 @@
 			echo "<script>window.location='../views/cursoIndex.php'</script>";
 		}
 
-		public static function destroy() {
+		public static function destroy($id) {
 
+			Curso::destroy($id);
 			echo "<script>window.location='../views/cursoIndex.php'</script>";
 		}
 
