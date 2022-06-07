@@ -4,7 +4,7 @@
 
     class Aluno extends BD {
 
-        public static $tabela = 'tb_alunos';
+        public static $tabela = 'aluno';
 
         public static function all($orderby="") {
             return parent::select(self::$tabela, $orderby);

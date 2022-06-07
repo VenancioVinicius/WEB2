@@ -16,7 +16,7 @@
                 CursoController::index();
             }
             else if(strcmp($dados[0], "alunos") == 0) {
-                // AlunoController::index();
+                AlunoController::index();
             }
             else if(strcmp($dados[0], "turmas") == 0) {
                 // TurmaController::index();

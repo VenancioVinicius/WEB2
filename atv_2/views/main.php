@@ -50,7 +50,7 @@
                             <li><a href="#" class="dropdown-item">Disciplinas</a></li>
                             <li><a href="#" class="dropdown-item">Professores</a></li>
                             <li><a href="#" class="dropdown-item">Técnicos</a></li>
-                            <li><a href="#" class="dropdown-item">Alunos</a></li>
+                            <li><a href="#" onclick="submit_action('alunos/'); return false;" class="dropdown-item">Alunos</a></li>
                             <li><a href="#" class="dropdown-item">Anos Letivos</a></li>
                         </ul>
                     </li>
